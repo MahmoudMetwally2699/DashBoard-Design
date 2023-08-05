@@ -1,0 +1,136 @@
+/* Add this CSS to your stylesheets or within a <style> tag in your component */
+
+
+/* Navbar background and padding */
+
+.navbar {
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    /* Example gradient background */
+    padding: 10px 0;
+}
+
+
+/* Logo styles */
+
+.navbar-brand img {
+    border: 2px solid white;
+    /* Add a white border around the logo */
+    border-radius: 50%;
+    /* Make the logo circular */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* Add a subtle shadow */
+}
+
+
+/* Navigation links */
+
+.navbar-nav .nav-link {
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Semi-transparent background on hover */
+    color: #121211;
+    /* Change link color on hover */
+}
+
+
+/* Dropdown menu */
+
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    /* Show the dropdown menu on hover */
+    animation: fadeInDown 0.3s forwards;
+}
+
+
+/* Search bar and button */
+
+.form-control {
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.form-control::placeholder {
+    color: white;
+}
+
+.btn-outline-success {
+    border-color: white;
+    color: white;
+}
+
+
+/* Animation for dropdown menu */
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Style for profile image in the dropdown */
+
+#profile-dropdown .dropdown-toggle::after {
+    display: none;
+    /* Hide the default dropdown indicator */
+}
+
+
+/* Style for dropdown menu items */
+
+#profile-dropdown .dropdown-item {
+    color: #333;
+}
+
+
+/* Style for hover effect on dropdown items */
+
+#profile-dropdown .dropdown-item:hover {
+    background-color: #f0f0f0;
+}
+
+
+/* Style for profile image */
+
+#profile-dropdown img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+/* Style for dropdown menu */
+
+#profile-dropdown .dropdown-menu {
+    min-width: auto;
+    /* Adjust the width as needed */
+    border: none;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.col-lg-4 {
+    width: 43.333333%;
+}
+
+.dropdown-menu {
+    --bs-dropdown-min-width: 35rem;
+}
+
+
+/* font-weight: bolder; */
+
+b,
+strong {
+    /* font-weight: bolder; */
+    font-size: 12px;
+}
