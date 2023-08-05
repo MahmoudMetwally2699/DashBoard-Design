@@ -57,11 +57,11 @@
     display: none !important;
 }
 
-.dropdown-container {
+.dropdown1-container {
     margin-top: 10px;
 }
 
-.dropdown {
+.dropdown1 {
     width: 100%;
     padding: 5px;
 }
@@ -110,7 +110,7 @@
     transform: translateY(-4px);
 }
 
-.dropdown {
+.dropdown1 {
     background-color: #f0f0f0;
     border: 1px solid #ccc;
     padding: 10px;
@@ -124,16 +124,16 @@
 /* dashboard.css */
 
 
-/* Styling for the dropdown */
+/* Styling for the dropdown1 */
 
-.dropdown {
-    /* ... existing dropdown styles ... */
+.dropdown1 {
+    /* ... existing dropdown1 styles ... */
     background-color: rgb(236, 102, 8);
     border-radius: 15px;
     transition: background-color 0.3s ease;
 }
 
-.dropdown:hover {
+.dropdown1:hover {
     background-color: #e0e0e0;
 }
 

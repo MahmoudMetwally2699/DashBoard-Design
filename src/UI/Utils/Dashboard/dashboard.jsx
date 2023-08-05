@@ -18,7 +18,6 @@ const Dashboard = () =>
     const [ profit, setProfit ] = useState( 0 );
     const initialProfit = 500;
     const incrementAmount = 10;
-    const animationDelay = 50;
 
 
 
@@ -159,8 +158,8 @@ const Dashboard = () =>
                                 <h2>{ box.title }</h2>
                             </div>
                             <p className="box-content">{ box.content }</p>
-                            <div className="dropdown-container">
-                                <select className="dropdown">
+                            <div className="dropdown1-container">
+                                <select className="dropdown1">
                                     { box.dropdownOptions.map( ( option, index ) => (
                                         <option key={ index } value={ option }>
                                             { option }
